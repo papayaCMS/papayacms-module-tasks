@@ -1,8 +1,5 @@
 <?php
-include_once(dirname(__FILE__).'/../../../../bootstrap.php');
-PapayaTestCase::registerPapayaAutoloader(
-  array('PapayaModuleTasks' => 'modules/free/Tasks/')
-);
+require_once(dirname(__FILE__).'/bootstrap.php');
 
 class PapayaModuleTasksManagerTest extends PapayaTestCase {
 
